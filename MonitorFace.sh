@@ -97,9 +97,9 @@ icon() {
 
 add=$(/usr/bin/curl -s cip.cc|grep -o "中国")
 if [ x"$add" = x"中国" ];then
-	url="https://coding.net/u/lihaoyun6/p/macOS-Displays-icon/git/raw/master"
+	url="https://coding.net/u/hifihuang/p/macOS-Displays-icon/git/raw/master"
 else
-	url="https://raw.githubusercontent.com/lihaoyun6/macOS-Displays-icon/master"
+	url="https://raw.githubusercontent.com/hifihuang/macOS-Displays-icon/master"
 fi
 lang=$(osascript -e 'user locale of (get system info)')
 #lang=qqq
